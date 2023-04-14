@@ -1,0 +1,20 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/yunnooo/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/yunnooo/frontend-project-44/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/yunnooo/frontend-project-44.git"
+  },
+  "keywords": [],
+  "author": "Daniil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunnooo/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/yunnooo/frontend-project-44#readme"
+}
