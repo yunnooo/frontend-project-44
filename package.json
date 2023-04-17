@@ -1,5 +1,6 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/yunnooo/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/yunnooo/frontend-project-44/actions)",
   "main": "index.js",
@@ -7,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/yunnooo/frontend-project-44.git"
   },
   "keywords": [],
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yunnooo/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/yunnooo/frontend-project-44#readme"
+  "homepage": "https://github.com/yunnooo/frontend-project-44#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
 }
