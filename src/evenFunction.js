@@ -20,7 +20,7 @@ export default () => {
       console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
       return console.log(`Let's try again, ${name}!`);
     } else if (randomNumb % 2 !== 0 && answer === 'yes') {
-      console.log("yes' is wrong answer ;(. Correct answer was 'no'.");
+      console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
       return console.log(`Let's try again, ${name}!`);
     } else {
       return console.log("You can type only 'yes' or 'no'. Please let's try again!");
