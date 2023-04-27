@@ -25,12 +25,12 @@ export const generateGameRoundWithAnswerStr = (func) => {
 
 const gameWithAnswerNum = (expression, answer) => {
   console.log(`Question:${expression}`);
-  const userAnswer = Number(readlineSync.question('Your answer: '));
-  if (userAnswer === answer) {
+  const userAnswer = readlineSync.question('Your answer: ');
+  if (Number(userAnswer) === answer) {
     console.log('Correct!');
     return true;
   }
-  if (Number.isNaN(userAnswer)) {
+  if (Number.isNaN(userAnswer) || userAnswer === '') {
     console.log('Sorry, only number are allowed :(.');
     return false;
   }
