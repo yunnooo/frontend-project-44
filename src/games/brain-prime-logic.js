@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { gameEngine, generateGameRoundWithAnswerStr as generateRound } from '../index.js';
 
-const task = 'Answer "yes" if number is prime otherwise answer "no".';
+const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   let divisorsCount = 0;
